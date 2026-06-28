@@ -1,0 +1,18 @@
+# Visual Studio files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.opendb
+
+# Logs
+logs/
+*.log
+
+# User-specific files
+.idea/
+.vscode/
