@@ -54,19 +54,27 @@ PATCH /api/cities/{cityId}/pointsofinterest/{id} - Partially update an attractio
 
 DELETE /api/cities/{cityId}/pointsofinterest/{id} - Remove an attraction (Authorized).
 
-💻 How to Run & Setup / راهنمای نصب و اجرا
+
 1.Clone this repository:
-git clone [https://github.com/YOUR_USERNAME/city-info-api.git](https://github.com/YOUR_USERNAME/city-info-api.git)
+```bash
+git clone https://github.com/AliFani1382/Cityinfo.API.git
+```
 
 2.Navigate to the API folder:
-cd city-info-api
+```bash
+cd Cityinfo.API
+```
 
 3.Restore packages and build the project:
+```bash
 dotnet restore
 dotnet build
+```
 
 4.Run the API:
-dotnet run
+```bash
+dotnet run --project Cityinfo.API
+```
 
 5.Test via Swagger: Open http://localhost:5142/swagger (یا هر پورتی که روی سیستم شما فعال است) to test the endpoints and experience the interactive UI.
 
